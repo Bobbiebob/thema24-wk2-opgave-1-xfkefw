@@ -17,5 +17,5 @@ export class AppComponent  {
   studietijd = 18;
   lanterfantertijd = (24 - this.studietijd);
   studiedagen = Math.round((this.studietijd+this.lanterfantertijd)/24);
-  employeeOfTheWeek = {'picture': 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2017/10/cities-skylines-seattle-6.jpg?itok=PKg5QmSE',}
+  employeeOfTheWeek = {'picture': ""}
 }
